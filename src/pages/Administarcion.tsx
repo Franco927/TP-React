@@ -1,8 +1,11 @@
+import ProductTable from "../components/ProductTable/ProductTable";
 
-const Administarcion = () => {
+export const Administracion = () => {
   return (
-    <div>Administarcion</div>
+    <>
+      < ProductTable />
+    </>
   )
 }
 
-export default Administarcion
+export default Administracion;
